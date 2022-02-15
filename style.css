@@ -85,6 +85,11 @@ li a.active {
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
     text-align: center;
+    height: 25px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 table,

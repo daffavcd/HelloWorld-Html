@@ -1,3 +1,7 @@
+.navku{
+    width: 100%;
+    display: flex;
+}
 .atas {
     position: relative;
     display: flex;

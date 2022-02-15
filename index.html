@@ -57,7 +57,7 @@
                 <hr style="border: 1px solid #e26f4ad9;margin-top: -15px;">
             </div>
             <h2 style="color: #e26f4ad9;text-align: left;">Entering the Dota 2 Scene</h2>
-            <article class="myarticle" style="margin-bottom: 51px;">
+            <article class="myarticle">
                 <div class="blockarticle">
                     <div>
                         <p align="justify">
@@ -100,6 +100,7 @@
                             levels
                             of competition.
                         </p>
+
                     </div>
                 </div>
                 <aside>
@@ -108,11 +109,41 @@
                     </div>
                 </aside>
             </article>
+            <h2 style="color: #e26f4ad9;text-align: left;">Other Achievements</h2>
+            <article class="myarticle" style="margin-bottom: 51px;">
+                <div class="blockarticle">
+                    <div id="tempelpara">
+                        <p align="justify">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ullam repudiandae voluptas expedita ducimus omnis, harum facere, quam rem quidem alias
+                            cumque dolor impedit rerum, modi quasi eaque! Eveniet necessitatibus itaque eum maxime a
+                            esse fuga dicta commodi voluptatem quod modi in ipsa dolorem corporis molestiae, dolores
+                            ratione illum, molestias porro adipisci explicabo quae consectetur recusandae deleniti?
+                            Corrupti perspiciatis repudiandae, veniam omnis corporis sit cum, similique, provident
+                            doloremque a inventore doloribus aperiam quia debitis tempora. Recusandae ut reprehenderit
+                            veniam facere harum possimus sequi magnam odit vel perferendis, cupiditate alias deserunt
+                            ea, sapiente, ipsa debitis hic maiores architecto est accusamus fugiat quod!
+
+                        </p>
+                    </div>
+                </div>
+            </article>
         </div>
     </main>
     <footer class="kaki">
         <p style="margin:5px">&copy; Copyright daffavcd 2022 </p>
     </footer>
 </body>
+<script>
+    console.log("daff");
+    for (let i = 0; i <= 2; i++) {
+        let para = document.createElement("p");
+        let node = document.createTextNode("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae voluptas expedita ducimus omnis, harum facere, quam rem quidem alias cumque dolor impedit rerum, modi quasi eaque! Eveniet necessitatibus itaque eum maxime a esse fuga dicta commodi voluptatem quod modi in ipsa dolorem corporis molestiae, dolores ratione illum, molestias porro adipisci explicabo quae consectetur recusandae deleniti? Corrupti perspiciatis repudiandae, veniam omnis corporis sit cum, similique, provident doloremque a inventore doloribus aperiam quia debitis tempora. Recusandae ut reprehenderit veniam facere harum possimus sequi magnam odit vel perferendis, cupiditate alias deserunt ea, sapiente, ipsa debitis hic maiores architecto est accusamus fugiat quod!");
+        para.setAttribute("align", "justify");
+        para.appendChild(node);
+        const element = document.getElementById("tempelpara");
+        element.appendChild(para);
+    }
+</script>
 
 </html>

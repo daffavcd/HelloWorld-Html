@@ -1,7 +1,18 @@
-.navku{
+.blockarticle {
+    width: 100%;
+    display: flex;
+    padding: 0px 15px 0px 5px;
+}
+
+.myarticle {
+    display: flex;
+}
+
+.navku {
     width: 100%;
     display: flex;
 }
+
 .atas {
     position: relative;
     display: flex;
@@ -19,7 +30,7 @@ a:hover {
     color: #001eb1;
 }
 
-.body1 {
+#content {
     width: 100%;
 }
 

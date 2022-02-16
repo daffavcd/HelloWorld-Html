@@ -108,3 +108,37 @@ th,
 td {
     padding: 15px;
 }
+
+.scrollable-table {
+    overflow-x: auto;
+}
+
+#tablekuni {
+    overflow: scroll;
+    /* Scrollbar are always visible */
+    overflow: auto;
+    /* Scrollbar is displayed as it's needed */
+}
+
+@media only screen and (max-width: 600px) {
+    .inputan {
+        display: none;
+    }
+
+    .myarticle {
+        display: block;
+        padding: 0px 7px 0px 6px;
+    }
+
+    .blockarticle {
+        width: 100%;
+        display: flex;
+        padding: 0px;
+    }
+
+    .imageart {
+        float: none !important;
+    }
+
+    
+}

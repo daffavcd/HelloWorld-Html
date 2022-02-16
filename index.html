@@ -5,6 +5,8 @@
     <title>Tugas JBSHT 2</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body>
@@ -17,7 +19,7 @@
                 <ul>
                     <li><a class="active" href="#">Overview</a></li>
                     <li><a href="tournament.html">Tournament</a></li>
-                    <input style="margin-left: 12px;" type="text" placeholder="Cari..">
+                    <input style="margin-left: 12px;" class="inputan" type="text" placeholder="Cari..">
                 </ul>
             </div>
         </nav>
@@ -31,12 +33,12 @@
             <article class="myarticle">
                 <div class="blockarticle">
                     <div>
-                        <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Evil Geniuses (EG) is an esports organization
+                        <p align="justify">&nbsp&nbsp&nbsp&nbsp Evil Geniuses (EG) is an esports organization
                             based in Seattle. Founded in 1999, the organization has fielded players in various fighting
                             games, Call of Duty, Counter-Strike: Global Offensive, Dota 2,
                             Fortnite Battle Royale, Halo, League of Legends, StarCraft II, Rocket League, Tom Clancy's
                             Rainbow Six Siege, and World of Warcraft.</p>
-                        <p align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Among the others, this E-Sport team, is one of
+                        <p align="justify">&nbsp&nbsp&nbsp&nbsp Among the others, this E-Sport team, is one of
                             the
                             oldest North American professional gaming organisations. Founded at Whasington, United
                             States,
@@ -48,7 +50,7 @@
                 </div>
                 <aside>
                     <div>
-                        <img src="img/rtz.jpg" style="float: right;width: 300px;" alt="">
+                        <img src="img/rtz.jpg" class="imageart" style="float: right;width: 300px;" alt="">
                     </div>
                 </aside>
             </article>
@@ -60,8 +62,7 @@
             <article class="myarticle">
                 <div class="blockarticle">
                     <div>
-                        <p align="justify">
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbspIn October 2011, following The International 2011, Evil
+                        <p align="justify">&nbsp&nbsp&nbsp&nbsp In October 2011, following The International 2011, Evil
                             Geniuses
                             announced the formation of their new Dota 2 division, including the return of two former
                             DotA
@@ -81,7 +82,7 @@
                             replaced
                             with Chinese player Luo before the tournament began.
                         </p>
-                        <p align="justify"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspPicking a unique strategy, the team was
+                        <p align="justify">&nbsp&nbsp&nbsp&nbsp Picking a unique strategy, the team was
                             able
                             to
                             gain a convincing lead against MiTH.Trust in the Winners Bracket of the tournament, when
@@ -105,7 +106,8 @@
                 </div>
                 <aside>
                     <div>
-                        <img src="img/eg2.jpg" style="margin-top: 20px;float: right;width: 300px;" alt="">
+                        <img src="img/eg2.jpg" class="imageart" style="margin-top: 20px;float: right;width: 300px;"
+                            alt="">
                     </div>
                 </aside>
             </article>
@@ -114,7 +116,7 @@
                 <div class="blockarticle">
                     <div id="tempelpara">
                         <p align="justify">
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            &nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Ullam repudiandae voluptas expedita ducimus omnis, harum facere, quam rem quidem alias
                             cumque dolor impedit rerum, modi quasi eaque! Eveniet necessitatibus itaque eum maxime a
                             esse fuga dicta commodi voluptatem quod modi in ipsa dolorem corporis molestiae, dolores
@@ -138,7 +140,7 @@
     console.log("daff");
     for (let i = 0; i <= 2; i++) {
         let para = document.createElement("p");
-        let node = document.createTextNode("\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae voluptas expedita ducimus omnis, harum facere, quam rem quidem alias cumque dolor impedit rerum, modi quasi eaque! Eveniet necessitatibus itaque eum maxime a esse fuga dicta commodi voluptatem quod modi in ipsa dolorem corporis molestiae, dolores ratione illum, molestias porro adipisci explicabo quae consectetur recusandae deleniti? Corrupti perspiciatis repudiandae, veniam omnis corporis sit cum, similique, provident doloremque a inventore doloribus aperiam quia debitis tempora. Recusandae ut reprehenderit veniam facere harum possimus sequi magnam odit vel perferendis, cupiditate alias deserunt ea, sapiente, ipsa debitis hic maiores architecto est accusamus fugiat quod!");
+        let node = document.createTextNode("\u00A0\u00A0\u00A0\u00A0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae voluptas expedita ducimus omnis, harum facere, quam rem quidem alias cumque dolor impedit rerum, modi quasi eaque! Eveniet necessitatibus itaque eum maxime a esse fuga dicta commodi voluptatem quod modi in ipsa dolorem corporis molestiae, dolores ratione illum, molestias porro adipisci explicabo quae consectetur recusandae deleniti? Corrupti perspiciatis repudiandae, veniam omnis corporis sit cum, similique, provident doloremque a inventore doloribus aperiam quia debitis tempora. Recusandae ut reprehenderit veniam facere harum possimus sequi magnam odit vel perferendis, cupiditate alias deserunt ea, sapiente, ipsa debitis hic maiores architecto est accusamus fugiat quod!");
         para.setAttribute("align", "justify");
         para.appendChild(node);
         const element = document.getElementById("tempelpara");
